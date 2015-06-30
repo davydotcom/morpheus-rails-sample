@@ -28,3 +28,7 @@ group :development, :test do
   gem 'spring'
 end
 
+group :assets do
+	gem 'therubyracer', :platforms => :ruby
+	gem 'uglifier'
+end
